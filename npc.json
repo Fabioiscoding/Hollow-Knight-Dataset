@@ -1,0 +1,791 @@
+[
+  {
+    "id": "oro",
+    "name": "Oro",
+    "type": "npc",
+    "location": {
+      "area": "Kingdom's Edge",
+      "room": "Oro's hut"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["teach_nail_arts"]
+    },
+    "lore": {
+      "description": "One of the three great Nailmasters, brother of Mato and Sheo",
+      "role": "Nail Arts Teacher",
+      "quests": ["Teach Dash Slash"]
+    },
+    "services": {
+      "teach_nail_arts": true,
+      "sell_items": false,
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "mato",
+    "name": "Mato",
+    "type": "npc",
+    "location": {
+      "area": "Howling Cliffs",
+      "room": "Mato's hut"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["teach_nail_arts"]
+    },
+    "lore": {
+      "description": "One of the three great Nailmasters, brother of Oro and Sheo",
+      "role": "Nail Arts Teacher",
+      "quests": ["Teach Cyclone Slash"]
+    },
+    "services": {
+      "teach_nail_arts": true,
+      "sell_items": false,
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "type": "npc",
+    "location": {
+      "area": "Greenpath",
+      "room": "Hunter's den"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["provide_journal"]
+    },
+    "lore": {
+      "description": "A mysterious hunter who documents all creatures of Hallownest",
+      "role": "Encyclopedia Provider",
+      "quests": ["Complete Hunter's Journal"]
+    },
+    "services": {
+      "teach_nail_arts": false,
+      "sell_items": false,
+      "provide_quests": true,
+      "provide_journal": true
+    }
+  },
+  {
+    "id": "myla",
+    "name": "Myla",
+    "type": "npc",
+    "location": {
+      "area": "Crystal Peak",
+      "room": "Mining area"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sing", "mine"]
+    },
+    "lore": {
+      "description": "A cheerful miner who sings while working",
+      "role": "Miner",
+      "quests": []
+    },
+    "services": {
+      "teach_nail_arts": false,
+      "sell_items": false,
+      "provide_quests": false
+    }
+  },
+  {
+    "id": "tiso",
+    "name": "Tiso",
+    "type": "npc",
+    "location": {
+      "area": "Colosseum of Fools",
+      "room": "Lobby"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["boast"]
+    },
+    "lore": {
+      "description": "A confident warrior seeking glory in the Colosseum",
+      "role": "Colosseum Challenger",
+      "quests": []
+    },
+    "services": {
+      "teach_nail_arts": false,
+      "sell_items": false,
+      "provide_quests": false
+    }
+  },
+  {
+    "id": "zote",
+    "name": "Zote",
+    "type": "npc",
+    "location": {
+      "area": "Various",
+      "room": "Various rooms"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["boast"]
+    },
+    "lore": {
+      "description": "A boastful and arrogant wanderer with delusions of grandeur",
+      "role": "Comic Relief",
+      "quests": ["Rescue Zote multiple times"]
+    },
+    "services": {
+      "teach_nail_arts": false,
+      "sell_items": false,
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "cornifer",
+    "name": "Cornifer",
+    "type": "npc",
+    "location": {
+      "area": "Various Areas",
+      "room": "Different locations throughout Hallownest"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_maps", "hum"]
+    },
+    "lore": {
+      "description": "A cheerful cartographer who wanders Hallownest creating maps",
+      "role": "Cartographer",
+      "quests": ["Buy area maps"]
+    },
+    "services": {
+      "sell_items": true,
+      "items_sold": ["Area Maps", "Map Pins", "Quill"],
+      "provide_quests": false
+    }
+  },
+  {
+    "id": "iseldacornifer",
+    "name": "Iselda",
+    "type": "npc",
+    "location": {
+      "area": "Dirtmouth",
+      "room": "Map Shop"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_maps", "sell_pins"]
+    },
+    "lore": {
+      "description": "Wife of Cornifer who runs the map shop in Dirtmouth",
+      "role": "Map Shop Owner",
+      "quests": []
+    },
+    "services": {
+      "sell_items": true,
+      "items_sold": ["Area Maps", "Map Pins", "Charms"],
+      "provide_quests": false
+    }
+  },
+  {
+    "id": "sly",
+    "name": "Sly",
+    "type": "npc",
+    "location": {
+      "area": "Dirtmouth",
+      "room": "General Store"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_items", "teach_nail_arts"]
+    },
+    "lore": {
+      "description": "The humble shopkeeper of Dirtmouth, formerly a great Nailmaster",
+      "role": "Shopkeeper & Nailmaster",
+      "quests": ["Teach Great Slash", "Sell various items"]
+    },
+    "services": {
+      "sell_items": true,
+      "teach_nail_arts": true,
+      "items_sold": ["Charms", "Items", "Nail Arts"],
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "last_stag",
+    "name": "The Last Stag",
+    "type": "npc",
+    "location": {
+      "area": "Various Stag Stations",
+      "room": "Stag Stations"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["transport_player"]
+    },
+    "lore": {
+      "description": "The last surviving Stag who operates the Stagway transportation system",
+      "role": "Transportation",
+      "quests": ["Reactivate Stag Stations"]
+    },
+    "services": {
+      "transportation": true,
+      "sell_items": false,
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "bretta",
+    "name": "Bretta",
+    "type": "npc",
+    "location": {
+      "area": "Dirtmouth",
+      "room": "Bretta's house"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["read_diary"]
+    },
+    "lore": {
+      "description": "A shy bug who develops crushes on strong warriors",
+      "role": "Story Character",
+      "quests": ["Rescue Bretta", "Read her diary"]
+    },
+    "services": {
+      "sell_items": false,
+      "provide_quests": true,
+      "story_progression": true
+    }
+  },
+  {
+    "id": "quirrel",
+    "name": "Quirrel",
+    "type": "npc",
+    "location": {
+      "area": "Various Areas",
+      "room": "Different locations throughout Hallownest"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["provide_lore", "companionship"]
+    },
+    "lore": {
+      "description": "A curious wanderer exploring the ruins of Hallownest with his own mysterious past",
+      "role": "Lore Provider & Companion",
+      "quests": ["Meet at key locations", "Learn about Hallownest's history"]
+    },
+    "services": {
+      "sell_items": false,
+      "provide_lore": true,
+      "provide_quests": false,
+      "companionship": true
+    }
+  },
+  {
+    "id": "cloth",
+    "name": "Cloth",
+    "type": "npc",
+    "location": {
+      "area": "Various Areas",
+      "room": "Different dangerous locations"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["provide_encouragement", "assist_in_battle"]
+    },
+    "lore": {
+      "description": "A brave warrior seeking a glorious death in battle",
+      "role": "Companion Warrior",
+      "quests": ["Meet in dangerous areas", "Final battle assistance"]
+    },
+    "services": {
+      "sell_items": false,
+      "provide_quests": true,
+      "battle_assistance": true
+    }
+  },
+  {
+    "id": "divine",
+    "name": "Divine",
+    "type": "npc",
+    "location": {
+      "area": "Dirtmouth",
+      "room": "Grimm Troupe Tent"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["upgrade_charms", "eat_charms"]
+    },
+    "lore": {
+      "description": "A member of the Grimm Troupe who can upgrade charms by consuming them",
+      "role": "Charm Upgrader",
+      "quests": ["Upgrade Fragile Charms"]
+    },
+    "services": {
+      "upgrade_items": true,
+      "sell_items": false,
+      "provide_quests": true,
+      "items_upgraded": ["Fragile Charms"]
+    }
+  },
+  {
+    "id": "brumm",
+    "name": "Brumm",
+    "type": "npc",
+    "location": {
+      "area": "Various Areas",
+      "room": "Near flame locations"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["play_music", "provide_quests"]
+    },
+    "lore": {
+      "description": "A musician of the Grimm Troupe who plays haunting melodies",
+      "role": "Musician & Quest Giver",
+      "quests": ["Grimm Troupe ritual"]
+    },
+    "services": {
+      "sell_items": false,
+      "provide_quests": true,
+      "story_progression": true
+    }
+  },
+  {
+    "id": "leg_eater",
+    "name": "Leg Eater",
+    "type": "npc",
+    "location": {
+      "area": "Fungal Wastes",
+      "room": "Hidden cave"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_charms", "repair_charms"]
+    },
+    "lore": {
+      "description": "A strange bug who sells and repairs fragile charms",
+      "role": "Charm Merchant",
+      "quests": ["Sell Fragile Charms", "Repair broken charms"]
+    },
+    "services": {
+      "sell_items": true,
+      "repair_items": true,
+      "items_sold": ["Fragile Charms"],
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "salubra",
+    "name": "Salubra",
+    "type": "npc",
+    "location": {
+      "area": "Forgotten Crossroads",
+      "room": "Salubra's shop"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_charms", "provide_charm_notches"]
+    },
+    "lore": {
+      "description": "A cheerful charm enthusiast who sells charms and charm notches",
+      "role": "Charm Merchant",
+      "quests": ["Collect charms", "Buy charm notches"]
+    },
+    "services": {
+      "sell_items": true,
+      "items_sold": ["Charms", "Charm Notches", "Items"],
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "jiji",
+    "name": "Jiji",
+    "type": "npc",
+    "location": {
+      "area": "Dirtmouth",
+      "room": "Jiji's hut"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["summon_shade"]
+    },
+    "lore": {
+      "description": "A mysterious bug who can summon your shade using Rancid Eggs",
+      "role": "Shade Summoner",
+      "quests": ["Retrieve lost shade"]
+    },
+    "services": {
+      "special_services": true,
+      "service_cost": "Rancid Eggs",
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "confessor_jiji",
+    "name": "Confessor Jiji",
+    "type": "npc",
+    "location": {
+      "area": "Dirtmouth",
+      "room": "Jiji's hut (alternative)"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["summon_shade"]
+    },
+    "lore": {
+      "description": "Alternative version of Jiji who serves the same function",
+      "role": "Shade Summoner",
+      "quests": ["Retrieve lost shade"]
+    },
+    "services": {
+      "special_services": true,
+      "service_cost": "Rancid Eggs",
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "millibelle",
+    "name": "Millibelle",
+    "type": "npc",
+    "location": {
+      "area": "Fog Canyon",
+      "room": "Pleasure House"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["store_geo", "steal_geo"]
+    },
+    "lore": {
+      "description": "A banker who stores your Geo but may run away with it",
+      "role": "Banker",
+      "quests": ["Store Geo", "Retrieve stolen Geo"]
+    },
+    "services": {
+      "banking": true,
+      "interest_rate": "variable",
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "tuk",
+    "name": "Tuk",
+    "type": "npc",
+    "location": {
+      "area": "Royal Waterways",
+      "room": "Tuk's den"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_rancid_eggs"]
+    },
+    "lore": {
+      "description": "A grub-like creature who sells Rancid Eggs",
+      "role": "Egg Merchant",
+      "quests": ["Buy Rancid Eggs"]
+    },
+    "services": {
+      "sell_items": true,
+      "items_sold": ["Rancid Eggs"],
+      "provide_quests": false
+    }
+  },
+  {
+    "id": "willoh",
+    "name": "Willoh",
+    "type": "npc",
+    "location": {
+      "area": "Queen's Gardens",
+      "room": "Willoh's nest"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["sell_bug_food"]
+    },
+    "lore": {
+      "description": "A creature who sells food for the delicate flowers",
+      "role": "Food Merchant",
+      "quests": ["Buy food for delicate flowers"]
+    },
+    "services": {
+      "sell_items": true,
+      "items_sold": ["Bug Food"],
+      "provide_quests": false
+    }
+  },
+  {
+    "id": "sheo",
+    "name": "Sheo",
+    "type": "npc",
+    "location": {
+      "area": "Greenpath",
+      "room": "Sheo's hut"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["paint", "teach_nail_arts"]
+    },
+    "lore": {
+      "description": "The third Nailmaster brother who abandoned fighting for painting",
+      "role": "Painter & Nailmaster",
+      "quests": ["Learn about his art"]
+    },
+    "services": {
+      "teach_nail_arts": false,
+      "sell_items": false,
+      "provide_quests": true,
+      "story_progression": true
+    }
+  },
+  {
+    "id": "seer",
+    "name": "The Seer",
+    "type": "npc",
+    "location": {
+      "area": "Resting Grounds",
+      "room": "Seer's chamber"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["collect_essence", "provide_rewards"]
+    },
+    "lore": {
+      "description": "The last of the moth tribe who rewards Dreamnail essence collection",
+      "role": "Essence Collector",
+      "quests": ["Collect Essence", "Dreamnail quests"]
+    },
+    "services": {
+      "collect_essence": true,
+      "provide_rewards": true,
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "white_lady",
+    "name": "White Lady",
+    "type": "npc",
+    "location": {
+      "area": "Queen's Gardens",
+      "room": "White Lady's chamber"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["provide_lore", "give_rewards"]
+    },
+    "lore": {
+      "description": "The White Lady, former queen of Hallownest and mother of the vessels",
+      "role": "Lore Provider",
+      "quests": ["Learn about the kingdom's history"]
+    },
+    "services": {
+      "provide_lore": true,
+      "give_items": true,
+      "provide_quests": true
+    }
+  },
+  {
+    "id": "emilitia",
+    "name": "Emilitia",
+    "type": "npc",
+    "location": {
+      "area": "City of Tears",
+      "room": "Emilitia's mansion"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["elegance", "provide_dialogue"]
+    },
+    "lore": {
+      "description": "An elegant noble who remains in her mansion despite the kingdom's fall",
+      "role": "Story Character",
+      "quests": []
+    },
+    "services": {
+      "sell_items": false,
+      "provide_quests": false,
+      "story_progression": true
+    }
+  },
+  {
+    "id": "mister_mushroom",
+    "name": "Mister Mushroom",
+    "type": "npc",
+    "location": {
+      "area": "Various Areas",
+      "room": "Hidden locations"
+    },
+    "stats": {
+      "health": "invulnerable",
+      "damage": {"contact": 0}
+    },
+    "behavior": {
+      "aggression": "none",
+      "attack_pattern": "None",
+      "movement_type": "stationary",
+      "abilities": ["provide_humor", "secret_quest"]
+    },
+    "lore": {
+      "description": "A mysterious mushroom character who appears in hidden locations",
+      "role": "Secret Quest Character",
+      "quests": ["Mister Mushroom secret quest"]
+    },
+    "services": {
+      "sell_items": false,
+      "provide_quests": true,
+      "secret_content": true
+    }
+  }
+]

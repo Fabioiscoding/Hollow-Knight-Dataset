@@ -1,0 +1,3947 @@
+[
+    {
+        "id": "aluba",
+        "name": "Aluba",
+        "type": "enemy",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Lake of Unn, Queen's Gardens"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 0
+            }
+        },
+        "behavior": {
+            "aggression": "none",
+            "attack_pattern": "Passive flying",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Passive glider that prefers to dwell near acid waters.",
+            "journal_entry": "What careless a life led drifting above us all. If one ever comes too close to the ground though..."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 1
+    },
+    {
+        "id": "ambloom",
+        "name": "Ambloom",
+        "type": "enemy",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 12,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Slow movement",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "SSimple-minded crawling fungus. Its cap is covered in a layer of hardened spikes.",
+            "journal_entry": "Lie on your belly, open your maw and let this tasty morsel stroll straight into your stomach."
+        },
+        "drops": {
+            "geo": 2,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "armoured_squit",
+        "name": "Armoured Squit",
+        "type": "enemy",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Charges at player at short distance",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Hardened squit, bred for battle in the Colosseum of Fools. Tougher and more aggressive than its wild ancestor.",
+            "journal_entry": "Strong and quick! When they rear back, either move out of the way or prepare to strike back!"
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "aspid_hatchling",
+        "name": "Aspid Hatchling",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 5,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Kamikaze charges",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Recently birthed, these young aspid instinctively swarm around intruders.",
+            "journal_entry": "These hatchlings are born with an instinct to kill! They are still only infants though, and you can crush them between your fangs without thinking. Just don't let them overwhelm you with numbers."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 30
+    },
+    {
+        "id": "aspid_hunter",
+        "name": "Aspid Hunter",
+        "location": {
+            "area": ["Forgotten Crossroads", "Ancient Basin"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1,
+                "spit": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Spits projectiles",
+            "movement_type": "flying",
+            "abilities": [
+                "spit"
+            ]
+        },
+        "lore": {
+            "description": "Bests its prey by spitting corrosive liquid. Often hunts in packs.",
+            "journal_entry": "Cunning predators that will try to pick you off from a distance. Don't give them any space, just charge in and cut them down! You'll find they're not so cunning once they are dead."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "aspid_mother",
+        "name": "Aspid Mother",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1,
+                "spit": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Hatches Aspid Hatchlings",
+            "movement_type": "flying",
+            "abilities": [
+                "hatches_aspid_hatchlings",
+                "death_hatchlings"
+            ]
+        },
+        "lore": {
+            "description": "Carries the eggs of its young inside its belly. Can hatch and birth its young as needed to deal with intruders.",
+            "journal_entry": "Shamelessly uses its own young as a weapon against its foes! Appalling, yes, but I do admire its resourcefulness. Good hunters do not always make good parents."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "baldur",
+        "name": "Baldur",
+        "location": {
+            "area": ["Howling Cliffs"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Rolls into ball",
+            "movement_type": "ground",
+            "abilities": [
+                "roll"
+            ]
+        },
+        "lore": {
+            "description": "Armored rolling creature",
+            "journal_entry": "Ancient creature covered in rock-hard shell. Rolls when threatened."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "battle_obble",
+        "name": "Battle Obble",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 18,
+            "damage": {
+                "contact": 1,
+                "spit": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive spitting",
+            "movement_type": "flying",
+            "abilities": [
+                "spit"
+            ]
+        },
+        "lore": {
+            "description": "Aggressive spitting enemy",
+            "journal_entry": "Battle-hardened Obble from the Colosseum."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "belfly",
+        "name": "Belfly",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Explodes when near",
+            "movement_type": "flying",
+            "abilities": [
+                "explode"
+            ]
+        },
+        "lore": {
+            "description": "Explosive flying enemy",
+            "journal_entry": "Flies toward prey and explodes on contact."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "bluggsac",
+        "name": "Bluggsac",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "passive",
+            "attack_pattern": "Hangs from ceiling",
+            "movement_type": "stationary",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Ceiling-hanging enemy",
+            "journal_entry": "Hangs from ceilings and drops when disturbed."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "boofly",
+        "name": "Boofly",
+        "location": {
+            "area": ["Howling Cliffs"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Floats and charges",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Floating fly enemy",
+            "journal_entry": "Simple flying creature found in the cliffs."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "carver_hatcher",
+        "name": "Carver Hatcher",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Spawns Dirtcarvers",
+            "movement_type": "stationary",
+            "abilities": [
+                "spawn_dirtcarvers"
+            ]
+        },
+        "lore": {
+            "description": "Spawns smaller enemies",
+            "journal_entry": "Lays eggs that hatch into Dirtcarvers."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "charged_lumafly",
+        "name": "Charged Lumafly",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1,
+                "electric": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Electric charges",
+            "movement_type": "flying",
+            "abilities": [
+                "electric_charge"
+            ]
+        },
+        "lore": {
+            "description": "Electric flying enemy",
+            "journal_entry": "Lumafly charged with crystal energy."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "corpse_creeper",
+        "name": "Corpse Creeper",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Crawls from corpses",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Crawling Deepnest enemy",
+            "journal_entry": "Emerges from corpses in the dark depths."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "cowardly_husk",
+        "name": "Cowardly Husk",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Flees from player",
+            "movement_type": "ground",
+            "abilities": [
+                "flee"
+            ]
+        },
+        "lore": {
+            "description": "Timid husk enemy",
+            "journal_entry": "Once a citizen, now a cowardly shell."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "crawlid",
+        "name": "Crawlid",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 5,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Crawls along ground",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Basic crawling enemy",
+            "journal_entry": "Harmless bug that crawls along the ground."
+        },
+        "drops": {
+            "geo": 1,
+            "items": []
+        },
+        "hunters_note_kills": 30
+    },
+    {
+        "id": "crystal_crawler",
+        "name": "Crystal Crawler",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Crawls on walls",
+            "movement_type": "ground",
+            "abilities": [
+                "wall_crawl"
+            ]
+        },
+        "lore": {
+            "description": "Crystal-infused crawler",
+            "journal_entry": "Crawls on crystal surfaces."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "crystal_hunter",
+        "name": "Crystal Hunter",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1,
+                "crystal": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Shoots crystals",
+            "movement_type": "flying",
+            "abilities": [
+                "crystal_shot"
+            ]
+        },
+        "lore": {
+            "description": "Crystal-shooting enemy",
+            "journal_entry": "Flies and shoots crystal projectiles."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "crystallised_husk",
+        "name": "Crystallised Husk",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Crystal-enhanced attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "crystal_enhanced"
+            ]
+        },
+        "lore": {
+            "description": "Crystal-infused husk",
+            "journal_entry": "Husk enhanced by crystal energy."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "death_loodle",
+        "name": "Death Loodle",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Rolling death attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "death_roll"
+            ]
+        },
+        "lore": {
+            "description": "Deadly rolling enemy",
+            "journal_entry": "Colosseum variant of the Loodle."
+        },
+        "drops": {
+            "geo": 11,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "deephunter",
+        "name": "Deephunter",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive hunting",
+            "movement_type": "ground",
+            "abilities": [
+                "hunt"
+            ]
+        },
+        "lore": {
+            "description": "Aggressive Deepnest hunter",
+            "journal_entry": "Skilled hunter of the deep tunnels."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "deepling",
+        "name": "Deepling",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Burrowing attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "burrow"
+            ]
+        },
+        "lore": {
+            "description": "Burrowing Deepnest enemy",
+            "journal_entry": "Burrows through the deep earth."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "dirtcarver",
+        "name": "Dirtcarver",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Burrows and attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "burrow"
+            ]
+        },
+        "lore": {
+            "description": "Burrowing carver enemy",
+            "journal_entry": "Burrows through dirt and attacks unexpectedly."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 30
+    },
+    {
+        "id": "duranda",
+        "name": "Duranda",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "combo_attack"
+            ]
+        },
+        "lore": {
+            "description": "Aggressive moss creature",
+            "journal_entry": "Larger and more aggressive moss kin."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "durandoo",
+        "name": "Durandoo",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Jumps and attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "jump"
+            ]
+        },
+        "lore": {
+            "description": "Jumping moss creature",
+            "journal_entry": "Jumps toward its prey."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "elder_baldur",
+        "name": "Elder Baldur",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Rolls and uncurls",
+            "movement_type": "ground",
+            "abilities": [
+                "roll",
+                "uncurl_attack"
+            ]
+        },
+        "lore": {
+            "description": "Larger armored creature",
+            "journal_entry": "Ancient elder of the Baldur species."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "entombed_husk",
+        "name": "Entombed Husk",
+        "location": {
+            "area": ["Resting Grounds"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Emerges from ground",
+            "movement_type": "ground",
+            "abilities": [
+                "burrow"
+            ]
+        },
+        "lore": {
+            "description": "Buried husk enemy",
+            "journal_entry": "Emerges from the ground when disturbed."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "fluke_larva",
+        "name": "Fluke Larva",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 5,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Small crawling attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Young fluke enemy",
+            "journal_entry": "Immature form of the Fluke."
+        },
+        "drops": {
+            "geo": 2,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "flukefey",
+        "name": "Flukefey",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Floats toward player",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Floating fluke enemy",
+            "journal_entry": "Floats through the watery tunnels."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "flukemon",
+        "name": "Flukemon",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive charges",
+            "movement_type": "ground",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Aggressive fluke enemy",
+            "journal_entry": "Adult form of the Fluke. Highly aggressive."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "flukemunga",
+        "name": "Flukemunga",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Large fluke attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "big_charge"
+            ]
+        },
+        "lore": {
+            "description": "Large fluke enemy",
+            "journal_entry": "Large and powerful Fluke variant."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "folly",
+        "name": "Folly",
+        "location": {
+            "area": ["Ancient Basin"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Wandering attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Ancient Basin wanderer",
+            "journal_entry": "Wanders the ancient depths."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "fool_eater",
+        "name": "Fool Eater",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive charges",
+            "movement_type": "ground",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Colosseum charger",
+            "journal_entry": "Aggressive charger from the Colosseum."
+        },
+        "drops": {
+            "geo": 15,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "fungified_husk",
+        "name": "Fungified Husk",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Infected wandering",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Fungal-infected husk",
+            "journal_entry": "Husk taken over by fungal growth."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "fungling",
+        "name": "Fungling",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Bounces around",
+            "movement_type": "ground",
+            "abilities": [
+                "bounce"
+            ]
+        },
+        "lore": {
+            "description": "Bouncing fungal enemy",
+            "journal_entry": "Bounces around the fungal growths."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "fungoon",
+        "name": "Fungoon",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1,
+                "spore": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Shoots spores",
+            "movement_type": "ground",
+            "abilities": [
+                "spore_attack"
+            ]
+        },
+        "lore": {
+            "description": "Spore-shooting enemy",
+            "journal_entry": "Shoots toxic spores at its prey."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "furious_vengefly",
+        "name": "Furious Vengefly",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive charges",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Enraged flying enemy",
+            "journal_entry": "Colosseum variant of the Vengefly."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "garpede",
+        "name": "Garpede",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "passive",
+            "attack_pattern": "Moves through tunnels",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Large tunnel creature",
+            "journal_entry": "Massive creature that moves through deep tunnels."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 5
+    },
+    {
+        "id": "glimback",
+        "name": "Glimback",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Crystal attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "crystal_attack"
+            ]
+        },
+        "lore": {
+            "description": "Crystal-backed enemy",
+            "journal_entry": "Carries crystal growths on its back."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "gluttonous_husk",
+        "name": "Gluttonous Husk",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Slow attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Slow, heavy husk",
+            "journal_entry": "Overfed husk that moves slowly but hits hard."
+        },
+        "drops": {
+            "geo": 11,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "goam",
+        "name": "Goam",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "passive",
+            "attack_pattern": "Stationary",
+            "movement_type": "stationary",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Stationary wall enemy",
+            "journal_entry": "Embedded in walls and floors. Immobile but dangerous."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "gorgeous_husk",
+        "name": "Gorgeous Husk",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Pleasure House"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Elegant attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Decorated husk enemy",
+            "journal_entry": "Once a noble, now a beautifully dressed husk."
+        },
+        "drops": {
+            "geo": 15,
+            "items": []
+        },
+        "hunters_note_kills": 5
+    },
+    {
+        "id": "great_hopper",
+        "name": "Great Hopper",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Powerful jumps",
+            "movement_type": "ground",
+            "abilities": [
+                "big_jump"
+            ]
+        },
+        "lore": {
+            "description": "Large jumping enemy",
+            "journal_entry": "Larger and more powerful Hopper variant."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "great_husk_sentry",
+        "name": "Great Husk Sentry",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 60,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Powerful guard attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "heavy_attack"
+            ]
+        },
+        "lore": {
+            "description": "Elite husk guard",
+            "journal_entry": "Elite sentry of the city guard."
+        },
+        "drops": {
+            "geo": 18,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "grimmkin_master",
+        "name": "Grimmkin Master",
+        "location": {
+            "area": ["Various"],
+            "room": "Hidden flame rooms"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1,
+                "fireball": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Advanced fire attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "fireball_attack",
+                "teleport"
+            ]
+        },
+        "lore": {
+            "description": "Advanced Grimmkin",
+            "journal_entry": "Master-level member of the Grimm Troupe."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Nightmare Flame"
+            ]
+        },
+        "hunters_note_kills": 5
+    },
+    {
+        "id": "grimmkin_nightmare",
+        "name": "Grimmkin Nightmare",
+        "location": {
+            "area": ["Nightmare Realm"],
+            "room": "Grimm Troupe"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 2,
+                "fireball": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Nightmare fire attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "nightmare_fire",
+                "teleport"
+            ]
+        },
+        "lore": {
+            "description": "Nightmare Grimmkin",
+            "journal_entry": "Nightmare variant of the Grimmkin."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Nightmare Flame"
+            ]
+        },
+        "hunters_note_kills": 3
+    },
+    {
+        "id": "grimmkin_novice",
+        "name": "Grimmkin Novice",
+        "location": {
+            "area": ["Various"],
+            "room": "Hidden flame rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1,
+                "fireball": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Basic fire attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "fireball_attack",
+                "teleport"
+            ]
+        },
+        "lore": {
+            "description": "Basic Grimmkin",
+            "journal_entry": "Novice member of the Grimm Troupe."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Nightmare Flame"
+            ]
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "grub_mimic",
+        "name": "Grub Mimic",
+        "location": {
+            "area": ["Tower of Love"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Mimics grubs then attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "mimic"
+            ]
+        },
+        "lore": {
+            "description": "Deceptive mimic enemy",
+            "journal_entry": "Mimics the appearance of a Grub to lure prey."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 5
+    },
+    {
+        "id": "gruzzer",
+        "name": "Gruzzer",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Flies in patterns",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Basic flying enemy",
+            "journal_entry": "Slow, clumsy creature that flies in straight lines."
+        },
+        "drops": {
+            "geo": 2,
+            "items": []
+        },
+        "hunters_note_kills": 30
+    },
+    {
+        "id": "gulka",
+        "name": "Gulka",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Slow powerful attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "heavy_attack"
+            ]
+        },
+        "lore": {
+            "description": "Heavy fungal enemy",
+            "journal_entry": "Large and powerful fungal creature."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "heavy_fool",
+        "name": "Heavy Fool",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Slow powerful attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "heavy_attack"
+            ]
+        },
+        "lore": {
+            "description": "Heavy Colosseum enemy",
+            "journal_entry": "Heavily armored Fool from the Colosseum."
+        },
+        "drops": {
+            "geo": 15,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "heavy_sentry",
+        "name": "Heavy Sentry",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 45,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Powerful attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "heavy_attack"
+            ]
+        },
+        "lore": {
+            "description": "Heavy city guard",
+            "journal_entry": "Heavily armored city sentry."
+        },
+        "drops": {
+            "geo": 14,
+            "items": []
+        },
+        "hunters_note_kills": 12
+    },
+    {
+        "id": "hive_guardian",
+        "name": "Hive Guardian",
+        "location": {
+            "area": ["The Hive"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Defensive attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "defend"
+            ]
+        },
+        "lore": {
+            "description": "Hive defender",
+            "journal_entry": "Guardian of the Hive's inner chambers."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "hive_soldier",
+        "name": "Hive Soldier",
+        "location": {
+            "area": ["The Hive"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive charges",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Hive warrior",
+            "journal_entry": "Soldier of the Hive, fiercely protective."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "hiveling",
+        "name": "Hiveling",
+        "location": {
+            "area": ["The Hive"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 12,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Swarming attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "swarm"
+            ]
+        },
+        "lore": {
+            "description": "Basic hive enemy",
+            "journal_entry": "Basic worker of the Hive. Attacks in swarms."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "hopper",
+        "name": "Hopper",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Jumps toward player",
+            "movement_type": "ground",
+            "abilities": [
+                "jump"
+            ]
+        },
+        "lore": {
+            "description": "Jumping enemy",
+            "journal_entry": "Jumps across the rocky terrain."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "hopping_zoteling",
+        "name": "Hopping Zoteling",
+        "location": {
+            "area": ["Godhome"],
+            "room": "Zote fights"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Hops toward player",
+            "movement_type": "ground",
+            "abilities": [
+                "hop"
+            ]
+        },
+        "lore": {
+            "description": "Zote's minion",
+            "journal_entry": "Minion created by Zote in the dream realm."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "husk_bully",
+        "name": "Husk Bully",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Slow powerful attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "heavy_attack"
+            ]
+        },
+        "lore": {
+            "description": "Bullying husk",
+            "journal_entry": "Aggressive husk that attacks with brute force."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "husk_dandy",
+        "name": "Husk Dandy",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Passive wandering",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Elegant husk",
+            "journal_entry": "Once a fashionable citizen, now an empty shell."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "husk_guard",
+        "name": "Husk Guard",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Powerful charges",
+            "movement_type": "ground",
+            "abilities": [
+                "charge",
+                "block"
+            ]
+        },
+        "lore": {
+            "description": "City guard husk",
+            "journal_entry": "Former city guard, still patrolling its post."
+        },
+        "drops": {
+            "geo": 15,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "husk_hive",
+        "name": "Husk Hive",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Spawns Hivelings",
+            "movement_type": "stationary",
+            "abilities": [
+                "spawn_hivelings"
+            ]
+        },
+        "lore": {
+            "description": "Hive-spawning husk",
+            "journal_entry": "Husk that has become a nest for Hivelings."
+        },
+        "drops": {
+            "geo": 15,
+            "items": []
+        },
+        "hunters_note_kills": 5
+    },
+    {
+        "id": "husk_hornhead",
+        "name": "Husk Hornhead",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Charges when close",
+            "movement_type": "ground",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Charging husk",
+            "journal_entry": "Husk that charges when prey gets too close."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "husk_miner",
+        "name": "Husk Miner",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Mining attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "mining_attack"
+            ]
+        },
+        "lore": {
+            "description": "Mining husk",
+            "journal_entry": "Former miner, still swinging its pickaxe."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "husk_sentry",
+        "name": "Husk Sentry",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Guard duty",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Sentry husk",
+            "journal_entry": "Stationed guard husk of the city."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "husk_warrior",
+        "name": "Husk Warrior",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "combo_attack"
+            ]
+        },
+        "lore": {
+            "description": "Warrior husk",
+            "journal_entry": "Trained warrior husk with combat skills."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "hwurmp",
+        "name": "Hwurmp",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Burrowing attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "burrow"
+            ]
+        },
+        "lore": {
+            "description": "Burrowing waterways enemy",
+            "journal_entry": "Burrows through the muddy waterways."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "infected_balloon",
+        "name": "Infected Balloon",
+        "location": {
+            "area": ["Infected Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Floats and explodes",
+            "movement_type": "flying",
+            "abilities": [
+                "explode"
+            ]
+        },
+        "lore": {
+            "description": "Explosive infected enemy",
+            "journal_entry": "Infected creature that floats and explodes."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "kingsmould",
+        "name": "Kingsmould",
+        "location": {
+            "area": ["White Palace"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 60,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Royal guard attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "guard_attack"
+            ]
+        },
+        "lore": {
+            "description": "Royal palace guard",
+            "journal_entry": "Construct created to guard the White Palace."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 5
+    },
+    {
+        "id": "lance_sentry",
+        "name": "Lance Sentry",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Lance attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "lance_attack"
+            ]
+        },
+        "lore": {
+            "description": "Lance-wielding guard",
+            "journal_entry": "City guard armed with a lance."
+        },
+        "drops": {
+            "geo": 11,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "leaping_husk",
+        "name": "Leaping Husk",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 13,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Jumps toward player",
+            "movement_type": "ground",
+            "abilities": [
+                "leap"
+            ]
+        },
+        "lore": {
+            "description": "Jumping husk",
+            "journal_entry": "Husk that leaps toward its prey."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "lesser_mawlek",
+        "name": "Lesser Mawlek",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Hidden area"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Claw attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "claw_attack"
+            ]
+        },
+        "lore": {
+            "description": "Smaller mawlek",
+            "journal_entry": "Younger, smaller version of the Brooding Mawlek."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "lifeseed",
+        "name": "Lifeseed",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "passive",
+            "attack_pattern": "Floats randomly",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Floating seed enemy",
+            "journal_entry": "Floats aimlessly through Greenpath."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "lightseed",
+        "name": "Lightseed",
+        "location": {
+            "area": ["Infected Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Floats randomly",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Infected floating enemy",
+            "journal_entry": "Infected creature that floats through infected areas."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "little_weaver",
+        "name": "Little Weaver",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 12,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Web attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "web"
+            ]
+        },
+        "lore": {
+            "description": "Small spider enemy",
+            "journal_entry": "Small weaver spider of Deepnest."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "loodle",
+        "name": "Loodle",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Rolling attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "roll"
+            ]
+        },
+        "lore": {
+            "description": "Rolling enemy",
+            "journal_entry": "Rolls across the rocky terrain of Kingdom's Edge."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "maggot",
+        "name": "Maggot",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 0
+            }
+        },
+        "behavior": {
+            "aggression": "none",
+            "attack_pattern": "None",
+            "movement_type": "stationary",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Harmless maggot",
+            "journal_entry": "Small, harmless creature found throughout Hallownest."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 1
+    },
+    {
+        "id": "mantis_petra",
+        "name": "Mantis Petra",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Flying mantis attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "flying_attack"
+            ]
+        },
+        "lore": {
+            "description": "Flying mantis",
+            "journal_entry": "Flying mantis traitor from Kingdom's Edge."
+        },
+        "drops": {
+            "geo": 11,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "mantis_traitor",
+        "name": "Mantis Traitor",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 45,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "aggressive_attack"
+            ]
+        },
+        "lore": {
+            "description": "Traitor mantis",
+            "journal_entry": "Mantis that betrayed its tribe for the infection."
+        },
+        "drops": {
+            "geo": 14,
+            "items": []
+        },
+        "hunters_note_kills": 12
+    },
+    {
+        "id": "mantis_warrior",
+        "name": "Mantis Warrior",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Mantis Village"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Advanced attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "claw_combo"
+            ]
+        },
+        "lore": {
+            "description": "Elite mantis warrior",
+            "journal_entry": "Elite warrior of the Mantis Tribe."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "mantis_youth",
+        "name": "Mantis Youth",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Mantis Village"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Basic attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "claw_attack"
+            ]
+        },
+        "lore": {
+            "description": "Young mantis",
+            "journal_entry": "Young mantis still training in combat."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "maskfly",
+        "name": "Maskfly",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Flies in patterns",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Flying mask enemy",
+            "journal_entry": "Flies through the fungal caverns."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "mawlurk",
+        "name": "Mawlurk",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Burrowing attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "burrow"
+            ]
+        },
+        "lore": {
+            "description": "Burrowing mawlek",
+            "journal_entry": "Burrowing relative of the Mawlek."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "menderbug",
+        "name": "Menderbug",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Bottom of well"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 0
+            }
+        },
+        "behavior": {
+            "aggression": "none",
+            "attack_pattern": "Flees from player",
+            "movement_type": "ground",
+            "abilities": [
+                "flee"
+            ]
+        },
+        "lore": {
+            "description": "Rare bug that repairs signs",
+            "journal_entry": "Extremely rare bug that repairs signs in Hallownest."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Menderbug's Diary"
+            ]
+        },
+        "hunters_note_kills": 1
+    },
+    {
+        "id": "mistake",
+        "name": "Mistake",
+        "location": {
+            "area": ["Ancient Basin"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Aggressive charges",
+            "movement_type": "ground",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Ancient Basin creature",
+            "journal_entry": "Strange creature found in the Ancient Basin."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "moss_charger",
+        "name": "Moss Charger",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Charges at player",
+            "movement_type": "ground",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Charging moss enemy",
+            "journal_entry": "Charges across the mossy grounds."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "moss_knight",
+        "name": "Moss Knight",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Sword attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "sword_attack"
+            ]
+        },
+        "lore": {
+            "description": "Knight moss enemy",
+            "journal_entry": "Mosskin trained in combat with a sword."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "mosscreep",
+        "name": "Mosscreep",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Flees from player",
+            "movement_type": "ground",
+            "abilities": [
+                "flee"
+            ]
+        },
+        "lore": {
+            "description": "Timid moss enemy",
+            "journal_entry": "Timid moss creature that flees from danger."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "mossfly",
+        "name": "Mossfly",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 6,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Flies away",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Flying moss enemy",
+            "journal_entry": "Flies away when approached."
+        },
+        "drops": {
+            "geo": 2,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "mosskin",
+        "name": "Mosskin",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Walks toward player",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Basic moss enemy",
+            "journal_entry": "Common moss creature of Greenpath."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "mossy_vagabond",
+        "name": "Mossy Vagabond",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Wanders and attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Wandering moss enemy",
+            "journal_entry": "Wanders the mossy paths of Greenpath."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "obble",
+        "name": "Obble",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 12,
+            "damage": {
+                "contact": 1,
+                "spit": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Spits projectiles",
+            "movement_type": "flying",
+            "abilities": [
+                "spit"
+            ]
+        },
+        "lore": {
+            "description": "Spitting flying enemy",
+            "journal_entry": "Flies and spits projectiles at its prey."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "ooma",
+        "name": "Ooma",
+        "location": {
+            "area": ["Fog Canyon"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Chases and explodes",
+            "movement_type": "flying",
+            "abilities": [
+                "explode",
+                "chase"
+            ]
+        },
+        "lore": {
+            "description": "Explosive jellyfish",
+            "journal_entry": "Aggressive jellyfish that chases and explodes."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "pilflip",
+        "name": "Pilflip",
+        "location": {
+            "area": ["Royal Waterways"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Swimming attacks",
+            "movement_type": "swimming",
+            "abilities": [
+                "swim_attack"
+            ]
+        },
+        "lore": {
+            "description": "Swimming waterways enemy",
+            "journal_entry": "Swims through the watery tunnels."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "primal_aspid",
+        "name": "Primal Aspid",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1,
+                "spit": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Triple spit attack",
+            "movement_type": "flying",
+            "abilities": [
+                "triple_spit"
+            ]
+        },
+        "lore": {
+            "description": "Advanced spitting enemy",
+            "journal_entry": "Ancient Aspid species with deadly triple spit."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "revek",
+        "name": "Revek",
+        "location": {
+            "area": ["Spirit's Glade"],
+            "room": "Glade entrance"
+        },
+        "stats": {
+            "health": "invulnerable",
+            "damage": {
+                "contact": 4
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Guard attacks",
+            "movement_type": "stationary",
+            "abilities": [
+                "guard"
+            ]
+        },
+        "lore": {
+            "description": "Spirit glade guardian",
+            "journal_entry": "Guardian of the Spirit's Glade. Do not disturb."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 0
+    },
+    {
+        "id": "royal_retainer",
+        "name": "Royal Retainer",
+        "location": {
+            "area": ["White Palace"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Retainer attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Palace servant",
+            "journal_entry": "Servant of the White Palace."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "shade",
+        "name": "Shade",
+        "location": {
+            "area": ["Where player died"],
+            "room": "Death location"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Chases player",
+            "movement_type": "flying",
+            "abilities": [
+                "chase"
+            ]
+        },
+        "lore": {
+            "description": "Player's lost soul",
+            "journal_entry": "The lingering soul of a fallen bug. Must be reclaimed."
+        },
+        "drops": {
+            "geo": "retrievable",
+            "items": [],
+            "other_rewards": [
+                "Soul vessel"
+            ]
+        },
+        "hunters_note_kills": 0
+    },
+    {
+        "id": "shadow_creeper",
+        "name": "Shadow Creeper",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Stealth attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "stealth"
+            ]
+        },
+        "lore": {
+            "description": "Stealthy Deepnest enemy",
+            "journal_entry": "Moves silently through the dark depths."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "shardmite",
+        "name": "Shardmite",
+        "location": {
+            "area": ["Crystal Peak"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Crawls on crystals",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Crystal-crawling enemy",
+            "journal_entry": "Crawls across crystal surfaces."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "sharp_baldur",
+        "name": "Sharp Baldur",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 35,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Rolls with spikes",
+            "movement_type": "ground",
+            "abilities": [
+                "roll"
+            ]
+        },
+        "lore": {
+            "description": "Spiked armored enemy",
+            "journal_entry": "Baldur with sharp spikes on its shell."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "shielded_fool",
+        "name": "Shielded Fool",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Shielded attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "shield"
+            ]
+        },
+        "lore": {
+            "description": "Shield-bearing enemy",
+            "journal_entry": "Colosseum Fool armed with a shield."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 12
+    },
+    {
+        "id": "shrumal_ogre",
+        "name": "Shrumal Ogre",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 50,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Powerful charges",
+            "movement_type": "ground",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Large fungal enemy",
+            "journal_entry": "Large and powerful shrumal creature."
+        },
+        "drops": {
+            "geo": 15,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "shrumal_warrior",
+        "name": "Shrumal Warrior",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Mushroom attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "mushroom_attack"
+            ]
+        },
+        "lore": {
+            "description": "Warrior fungal enemy",
+            "journal_entry": "Shrumal creature trained for combat."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "shrumeling",
+        "name": "Shrumeling",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 12,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Passive movement",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Small fungal enemy",
+            "journal_entry": "Small, peaceful shrumal creature."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "sibling",
+        "name": "Sibling",
+        "location": {
+            "area": ["Abyss"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Floats aimlessly",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Void creature",
+            "journal_entry": "Being of void from the Abyss."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 0
+    },
+    {
+        "id": "sister_splinter",
+        "name": "Sister Splinter",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Fast attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "fast_attack"
+            ]
+        },
+        "lore": {
+            "description": "Fast Colosseum enemy",
+            "journal_entry": "Swift fighter from the Colosseum."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "slobbering_husk",
+        "name": "Slobbering Husk",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Slow but powerful",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Drooling husk enemy",
+            "journal_entry": "Husk that drools infection constantly."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "soul_twister",
+        "name": "Soul Twister",
+        "location": {
+            "area": ["Soul Sanctum"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1,
+                "soul": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Teleports and shoots",
+            "movement_type": "flying",
+            "abilities": [
+                "teleport",
+                "soul_attack"
+            ]
+        },
+        "lore": {
+            "description": "Teleporting soul enemy",
+            "journal_entry": "Teleports around and shoots soul projectiles."
+        },
+        "drops": {
+            "geo": 10,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "soul_warrior",
+        "name": "Soul Warrior",
+        "location": {
+            "area": ["Soul Sanctum"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 60,
+            "damage": {
+                "contact": 1,
+                "soul": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Dashes and soul attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "dash",
+                "soul_attack"
+            ]
+        },
+        "lore": {
+            "description": "Soul warrior enemy",
+            "journal_entry": "Warrior trained in soul magic."
+        },
+        "drops": {
+            "geo": 20,
+            "items": []
+        },
+        "hunters_note_kills": 8
+    },
+    {
+        "id": "spiny_husk",
+        "name": "Spiny Husk",
+        "location": {
+            "area": ["Kingdom's Edge"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Spiny attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "spiny_attack"
+            ]
+        },
+        "lore": {
+            "description": "Spiked husk enemy",
+            "journal_entry": "Husk covered in sharp spines."
+        },
+        "drops": {
+            "geo": 7,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "sporg",
+        "name": "Sporg",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 1,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "passive",
+            "attack_pattern": "Stationary spore shooter",
+            "movement_type": "stationary",
+            "abilities": [
+                "spore"
+            ]
+        },
+        "lore": {
+            "description": "Stationary spore enemy",
+            "journal_entry": "Stationary fungus that shoots spores."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "squit",
+        "name": "Squit",
+        "location": {
+            "area": ["Fungal Wastes"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Floats and charges",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Floating charge enemy",
+            "journal_entry": "Floats through the air and charges at prey."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "stalking_devout",
+        "name": "Stalking Devout",
+        "location": {
+            "area": ["Deepnest"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 60,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Stalks and attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "stalk"
+            ]
+        },
+        "lore": {
+            "description": "Stalking Deepnest enemy",
+            "journal_entry": "Stalks its prey through the dark tunnels."
+        },
+        "drops": {
+            "geo": 18,
+            "items": []
+        },
+        "hunters_note_kills": 8
+    },
+    {
+        "id": "sturdy_fool",
+        "name": "Sturdy Fool",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 40,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Tanky attacks",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Durable Colosseum enemy",
+            "journal_entry": "Sturdy fighter from the Colosseum."
+        },
+        "drops": {
+            "geo": 12,
+            "items": []
+        },
+        "hunters_note_kills": 12
+    },
+    {
+        "id": "tiktik",
+        "name": "Tiktik",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 7,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Crawls on ceilings",
+            "movement_type": "ground",
+            "abilities": [
+                "ceiling_crawl"
+            ]
+        },
+        "lore": {
+            "description": "Ceiling-crawling enemy",
+            "journal_entry": "Crawls on ceilings and drops when prey passes below."
+        },
+        "drops": {
+            "geo": 1,
+            "items": []
+        },
+        "hunters_note_kills": 30
+    },
+    {
+        "id": "uoma",
+        "name": "Uoma",
+        "location": {
+            "area": ["Fog Canyon"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Explodes when attacked",
+            "movement_type": "flying",
+            "abilities": [
+                "explode"
+            ]
+        },
+        "lore": {
+            "description": "Explosive jellyfish",
+            "journal_entry": "Jellyfish that explodes when attacked."
+        },
+        "drops": {
+            "geo": 6,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "vengefly",
+        "name": "Vengefly",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 8,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Flies toward player",
+            "movement_type": "flying",
+            "abilities": [
+                "charge"
+            ]
+        },
+        "lore": {
+            "description": "Aggressive flying enemy",
+            "journal_entry": "Aggressive flying creature that charges at intruders."
+        },
+        "drops": {
+            "geo": 3,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "violent_husk",
+        "name": "Violent Husk",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Very aggressive",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Extremely aggressive husk",
+            "journal_entry": "Extremely aggressive husk from the Colosseum."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "void_tendrils",
+        "name": "Void Tendrils",
+        "location": {
+            "area": ["Abyss"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Tendril attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "tendril_attack"
+            ]
+        },
+        "lore": {
+            "description": "Void entity",
+            "journal_entry": "Tendrils of void that emerge from the darkness."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 10
+    },
+    {
+        "id": "volatile_gruzzer",
+        "name": "Volatile Gruzzer",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 12,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Erratic flying",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Erratic flying enemy",
+            "journal_entry": "Unpredictable Gruzzer from the Colosseum."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "volatile_mosskin",
+        "name": "Volatile Mosskin",
+        "location": {
+            "area": ["Greenpath"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Explodes when near",
+            "movement_type": "ground",
+            "abilities": [
+                "explode"
+            ]
+        },
+        "lore": {
+            "description": "Explosive moss enemy",
+            "journal_entry": "Mosskin that explodes when prey gets too close."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "volatile_zoteling",
+        "name": "Volatile Zoteling",
+        "location": {
+            "area": ["Godhome"],
+            "room": "Zote fights"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Explodes when near",
+            "movement_type": "ground",
+            "abilities": [
+                "explode"
+            ]
+        },
+        "lore": {
+            "description": "Explosive Zote minion",
+            "journal_entry": "Zoteling that explodes on contact."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "volt_twister",
+        "name": "Volt Twister",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 30,
+            "damage": {
+                "contact": 1,
+                "electric": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Electric attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "electric_attack"
+            ]
+        },
+        "lore": {
+            "description": "Electric flying enemy",
+            "journal_entry": "Flies and creates electric attacks."
+        },
+        "drops": {
+            "geo": 9,
+            "items": []
+        },
+        "hunters_note_kills": 12
+    },
+    {
+        "id": "wandering_husk",
+        "name": "Wandering Husk",
+        "location": {
+            "area": ["Forgotten Crossroads"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 13,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "low",
+            "attack_pattern": "Wanders aimlessly",
+            "movement_type": "ground",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Basic wandering husk",
+            "journal_entry": "Mindless husk that wanders aimlessly."
+        },
+        "drops": {
+            "geo": 5,
+            "items": []
+        },
+        "hunters_note_kills": 25
+    },
+    {
+        "id": "winged_fool",
+        "name": "Winged Fool",
+        "location": {
+            "area": ["Colosseum of Fools"],
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 25,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Flying attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "dive"
+            ]
+        },
+        "lore": {
+            "description": "Flying Colosseum enemy",
+            "journal_entry": "Flying fighter from the Colosseum."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    },
+    {
+        "id": "winged_sentry",
+        "name": "Winged Sentry",
+        "location": {
+            "area": ["City of Tears"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 20,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Flying attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "dive"
+            ]
+        },
+        "lore": {
+            "description": "Flying city guard",
+            "journal_entry": "Flying sentry of the city guard."
+        },
+        "drops": {
+            "geo": 8,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "winged_zoteling",
+        "name": "Winged Zoteling",
+        "location": {
+            "area": ["Godhome"],
+            "room": "Zote fights"
+        },
+        "stats": {
+            "health": 10,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Flying zote attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "fly_attack"
+            ]
+        },
+        "lore": {
+            "description": "Flying Zote minion",
+            "journal_entry": "Flying minion created by Zote."
+        },
+        "drops": {
+            "geo": 4,
+            "items": []
+        },
+        "hunters_note_kills": 20
+    },
+    {
+        "id": "wingmould",
+        "name": "Wingmould",
+        "location": {
+            "area": ["White Palace"],
+            "room": "Various rooms"
+        },
+        "stats": {
+            "health": 15,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Flying attacks",
+            "movement_type": "flying",
+            "abilities": []
+        },
+        "lore": {
+            "description": "Palace flying construct",
+            "journal_entry": "Flying construct of the White Palace."
+        },
+        "drops": {
+            "geo": 0,
+            "items": []
+        },
+        "hunters_note_kills": 15
+    }
+]

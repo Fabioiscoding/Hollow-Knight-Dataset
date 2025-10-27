@@ -1,0 +1,1612 @@
+[
+    {
+        "id": "absolute_radiance",
+        "name": "Absolute Radiance",
+        "type": "final_boss",
+        "difficulty": "10/10",
+        "location": {
+            "area": "Godhome",
+            "room": "Pantheon of Hallownest"
+        },
+        "stats": {
+            "health": 150,
+            "damage": {
+                "contact": 2,
+                "projectiles": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Multiple phase light attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "sword_barrage",
+                "light_beams",
+                "orb_attack"
+            ]
+        },
+        "lore": {
+            "description": "The ultimate form of the Radiance",
+            "journal_entry": "Ultimate form of the light that plagues this kingdom."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Hunter's Mark"
+            ],
+            "other_rewards": [
+                "True game completion"
+            ]
+        }
+    },
+    {
+        "id": "broken_vessel",
+        "name": "Broken Vessel",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Ancient Basin",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 200,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Infected attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "infection_attack"
+            ]
+        },
+        "lore": {
+            "description": "A failed vessel taken over by infection",
+            "journal_entry": "A failed Vessel, now filled with light."
+        },
+        "drops": {
+            "geo": 300,
+            "items": [
+                "Monarch Wings"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "brooding_mawlek",
+        "name": "Brooding Mawlek",
+        "type": "boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Forgotten Crossroads",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 180,
+            "damage": {
+                "contact": 1,
+                "claw": 1,
+                "acid": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Claw swipes and acid spit",
+            "movement_type": "ground",
+            "abilities": [
+                "claw_swipe",
+                "acid_spit"
+            ]
+        },
+        "lore": {
+            "description": "Large infected creature",
+            "journal_entry": "Lurks in the dark, waiting for prey."
+        },
+        "drops": {
+            "geo": 40,
+            "items": [
+                "Mask Shard"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "collector",
+        "name": "The Collector",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Tower of Love",
+            "room": "Top chamber"
+        },
+        "stats": {
+            "health": 150,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Throws jars with enemies",
+            "movement_type": "flying",
+            "abilities": [
+                "jar_throw"
+            ]
+        },
+        "lore": {
+            "description": "Mysterious bug collector",
+            "journal_entry": "A strange being that hoards bugs in glass prisons."
+        },
+        "drops": {
+            "geo": 200,
+            "items": [
+                "Collector's Map"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "crystal_guardian",
+        "name": "Crystal Guardian",
+        "type": "boss",
+        "difficulty": "4/10",
+        "location": {
+            "area": "Crystal Peak",
+            "room": "Bench room"
+        },
+        "stats": {
+            "health": 160,
+            "damage": {
+                "contact": 2,
+                "laser": 2
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Laser attacks",
+            "movement_type": "stationary",
+            "abilities": [
+                "laser"
+            ]
+        },
+        "lore": {
+            "description": "Crystal-corrupted bug",
+            "journal_entry": "A bug consumed by shining crystal. Won't give up its seat."
+        },
+        "drops": {
+            "geo": 200,
+            "items": [],
+            "other_rewards": [
+                "Bench access"
+            ]
+        }
+    },
+    {
+        "id": "dung_defender",
+        "name": "Dung Defender",
+        "type": "boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Royal Waterways",
+            "room": "Eastern chamber"
+        },
+        "stats": {
+            "health": 220,
+            "damage": {
+                "contact": 1,
+                "dung": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Dung balls and diving",
+            "movement_type": "ground",
+            "abilities": [
+                "dung_ball",
+                "dive"
+            ]
+        },
+        "lore": {
+            "description": "Cheerful dung warrior",
+            "journal_entry": "A jovial warrior who defends these filthy tunnels."
+        },
+        "drops": {
+            "geo": 300,
+            "items": [
+                "Defender's Crest"
+            ],
+            "other_rewards": [
+                "Access to Isma's Grove"
+            ]
+        }
+    },
+    {
+        "id": "elder_hu",
+        "name": "Elder Hu",
+        "type": "dream_boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Fungal Wastes",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 140,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Martial arts",
+            "movement_type": "flying",
+            "abilities": [
+                "martial_arts"
+            ]
+        },
+        "lore": {
+            "description": "Ancient martial arts master",
+            "journal_entry": "An ancient master of martial arts."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "enraged_guardian",
+        "name": "Enraged Guardian",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Crystal Peak",
+            "room": "Bench room"
+        },
+        "stats": {
+            "health": 240,
+            "damage": {
+                "contact": 2,
+                "laser": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Fast laser attacks",
+            "movement_type": "stationary",
+            "abilities": [
+                "rapid_laser"
+            ]
+        },
+        "lore": {
+            "description": "Enraged crystal guardian",
+            "journal_entry": "The Guardian's rage has amplified its crystal power."
+        },
+        "drops": {
+            "geo": 300,
+            "items": [],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "failed_champion",
+        "name": "Failed Champion",
+        "type": "dream_boss",
+        "difficulty": "8/10",
+        "location": {
+            "area": "Forgotten Crossroads",
+            "room": "Ancestral Mound (Dream)"
+        },
+        "stats": {
+            "health": 420,
+            "damage": {
+                "contact": 2,
+                "slam": 2,
+                "shockwave": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Enhanced mace attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "slam",
+                "shockwave",
+                "rage_mode"
+            ]
+        },
+        "lore": {
+            "description": "Dream version of False Knight",
+            "journal_entry": "The maggot's dream of strength and power."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "false_knight",
+        "name": "False Knight",
+        "type": "boss",
+        "difficulty": "4/10",
+        "location": {
+            "area": "Forgotten Crossroads",
+            "room": "Ancestral Mound"
+        },
+        "stats": {
+            "health": 140,
+            "damage": {
+                "contact": 1,
+                "slam": 1,
+                "shockwave": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Mace slams and shockwaves",
+            "movement_type": "ground",
+            "abilities": [
+                "slam",
+                "shockwave"
+            ]
+        },
+        "lore": {
+            "description": "Maggot in stolen armor",
+            "journal_entry": "A small creature hiding within a stolen shell."
+        },
+        "drops": {
+            "geo": 100,
+            "items": [
+                "City Crest"
+            ],
+            "other_rewards": [
+                "Vengeful Spirit spell"
+            ]
+        }
+    },
+    {
+        "id": "flukemarm",
+        "name": "Flukemarm",
+        "type": "boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Royal Waterways",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 180,
+            "damage": {
+                "contact": 1
+            }
+        },
+        "behavior": {
+            "aggression": "medium",
+            "attack_pattern": "Spawns Flukefeys",
+            "movement_type": "stationary",
+            "abilities": [
+                "spawn_flukefey"
+            ]
+        },
+        "lore": {
+            "description": "Mother of all Flukes",
+            "journal_entry": "The mother of all Flukes. A truly disgusting sight."
+        },
+        "drops": {
+            "geo": 250,
+            "items": [],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "galien",
+        "name": "Galien",
+        "type": "dream_boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Deepnest",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 135,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Scythe attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "scythe_attack"
+            ]
+        },
+        "lore": {
+            "description": "Dream warrior with scythe",
+            "journal_entry": "A mighty warrior who dances through the air with his great scythe."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "god_tamer",
+        "name": "God Tamer",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Colosseum of Fools",
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 120,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Beast taming attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "beast_command"
+            ]
+        },
+        "lore": {
+            "description": "Colosseum champion",
+            "journal_entry": "A champion who fights alongside a trained beast."
+        },
+        "drops": {
+            "geo": 150,
+            "items": [],
+            "other_rewards": [
+                "Colosseum completion"
+            ]
+        }
+    },
+    {
+        "id": "gorb",
+        "name": "Gorb",
+        "type": "dream_boss",
+        "difficulty": "4/10",
+        "location": {
+            "area": "Howling Cliffs",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 120,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Ascension attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "ascend"
+            ]
+        },
+        "lore": {
+            "description": "Warrior seeking ascension",
+            "journal_entry": "A warrior who seeks to ascend to a higher plane."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "great_nailsage_sly",
+        "name": "Great Nailsage Sly",
+        "type": "boss",
+        "difficulty": "8/10",
+        "location": {
+            "area": "Godhome",
+            "room": "Pantheon"
+        },
+        "stats": {
+            "health": 300,
+            "damage": {
+                "contact": 2,
+                "nail": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Fast nail arts",
+            "movement_type": "ground",
+            "abilities": [
+                "nail_arts",
+                "cyclone_slash"
+            ]
+        },
+        "lore": {
+            "description": "Master of nail arts",
+            "journal_entry": "The master of all nail arts."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Pantheon completion"
+            ]
+        }
+    },
+    {
+        "id": "grey_prince_zote",
+        "name": "Grey Prince Zote",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Dirtmouth",
+            "room": "Bretta's house"
+        },
+        "stats": {
+            "health": 280,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Zote-style attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "zote_attack"
+            ]
+        },
+        "lore": {
+            "description": "Dream version of Zote",
+            "journal_entry": "A dream version empowered by infatuation."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Achievement"
+            ]
+        }
+    },
+    {
+        "id": "grimm",
+        "name": "Troupe Master Grimm",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Dirtmouth",
+            "room": "Grimm Troupe Tent"
+        },
+        "stats": {
+            "health": 200,
+            "damage": {
+                "contact": 2,
+                "fireball": 1,
+                "dash": 1
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Fast dash and fire attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "dash_attack",
+                "fireballs",
+                "bat_projectiles"
+            ]
+        },
+        "lore": {
+            "description": "Master of Grimm Troupe",
+            "journal_entry": "Master of the Grimm Troupe. A creature of nightmare."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Grimmchild"
+            ],
+            "other_rewards": [
+                "Flame Fragment"
+            ]
+        }
+    },
+    {
+        "id": "hive_knight",
+        "name": "Hive Knight",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "The Hive",
+            "room": "Hive throne room"
+        },
+        "stats": {
+            "health": 240,
+            "damage": {
+                "contact": 2,
+                "lunge": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Fast lunge attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "lunge",
+                "hive_projectiles"
+            ]
+        },
+        "lore": {
+            "description": "Protector of the Hive",
+            "journal_entry": "The loyal protector of the Hive."
+        },
+        "drops": {
+            "geo": 320,
+            "items": [
+                "Hiveblood"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "hollow_knight",
+        "name": "Hollow Knight",
+        "type": "final_boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Temple of the Black Egg",
+            "room": "Black Egg Temple"
+        },
+        "stats": {
+            "health": 210,
+            "damage": {
+                "contact": 2,
+                "nail": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Nail and infection attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "nail_swing",
+                "infection_burst"
+            ]
+        },
+        "lore": {
+            "description": "The chosen vessel",
+            "journal_entry": "The pure Vessel meant to seal the Light."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Game completion"
+            ]
+        }
+    },
+    {
+        "id": "hornet_protector",
+        "name": "Hornet Protector",
+        "type": "boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Greenpath",
+            "room": "Lake arena"
+        },
+        "stats": {
+            "health": 225,
+            "damage": {
+                "contact": 1,
+                "needle": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Needle and thread attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "needle_throw",
+                "aerial_dive"
+            ]
+        },
+        "lore": {
+            "description": "Mysterious warrior",
+            "journal_entry": "A mysterious protector of Hallownest's ruins."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Mothwing Cloak"
+            ],
+            "other_rewards": [
+                "Dash ability"
+            ]
+        }
+    },
+    {
+        "id": "hornet_sentinel",
+        "name": "Hornet Sentinel",
+        "type": "boss",
+        "difficulty": "8/10",
+        "location": {
+            "area": "Kingdom's Edge",
+            "room": "Cast-off shell"
+        },
+        "stats": {
+            "health": 350,
+            "damage": {
+                "contact": 2,
+                "needle": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Enhanced needle attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "needle_throw",
+                "aerial_dive",
+                "spike_traps"
+            ]
+        },
+        "lore": {
+            "description": "Hornet in true element",
+            "journal_entry": "The protector in her true element."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "King's Brand"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "lost_kin",
+        "name": "Lost Kin",
+        "type": "dream_boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Ancient Basin",
+            "room": "Hidden chamber (Dream)"
+        },
+        "stats": {
+            "health": 400,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Enhanced infected attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "infection_attack",
+                "spawn_balloons"
+            ]
+        },
+        "lore": {
+            "description": "Dream Broken Vessel",
+            "journal_entry": "The dream of the Broken Vessel."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "mantis_lords",
+        "name": "Mantis Lords",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Fungal Wastes",
+            "room": "Mantis Village throne room"
+        },
+        "stats": {
+            "health": 210,
+            "damage": {
+                "contact": 1,
+                "scythe": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Coordinated scythe attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "scythe_throw",
+                "dive"
+            ]
+        },
+        "lore": {
+            "description": "Rulers of Mantis Tribe",
+            "journal_entry": "The proud rulers of the Mantis Tribe."
+        },
+        "drops": {
+            "geo": 300,
+            "items": [],
+            "other_rewards": [
+                "Mantis Claw"
+            ]
+        }
+    },
+    {
+        "id": "markoth",
+        "name": "Markoth",
+        "type": "dream_boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Kingdom's Edge",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 125,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Shield and nail attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "shield",
+                "nail_throw"
+            ]
+        },
+        "lore": {
+            "description": "Dream shield warrior",
+            "journal_entry": "A warrior who fights with spectral shields."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "marmu",
+        "name": "Marmu",
+        "type": "dream_boss",
+        "difficulty": "4/10",
+        "location": {
+            "area": "Queen's Gardens",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 110,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Ball bouncing",
+            "movement_type": "flying",
+            "abilities": [
+                "bounce"
+            ]
+        },
+        "lore": {
+            "description": "Playful dream creature",
+            "journal_entry": "A playful creature that bounces around energetically."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "massive_moss_charger",
+        "name": "Massive Moss Charger",
+        "type": "boss",
+        "difficulty": "4/10",
+        "location": {
+            "area": "Greenpath",
+            "room": "Stone Sanctuary"
+        },
+        "stats": {
+            "health": 120,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Powerful charges",
+            "movement_type": "ground",
+            "abilities": [
+                "charge",
+                "stomp"
+            ]
+        },
+        "lore": {
+            "description": "Giant moss creature",
+            "journal_entry": "A huge moss creature that charges with great force."
+        },
+        "drops": {
+            "geo": 80,
+            "items": [],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "nightmare_king_grimm",
+        "name": "Nightmare King Grimm",
+        "type": "boss",
+        "difficulty": "9/10",
+        "location": {
+            "area": "Dirtmouth",
+            "room": "Grimm Troupe Tent"
+        },
+        "stats": {
+            "health": 300,
+            "damage": {
+                "contact": 2,
+                "fireball": 1,
+                "dash": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Extremely fast attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "dash_attack",
+                "fire_pillar",
+                "pufferfish_phase"
+            ]
+        },
+        "lore": {
+            "description": "True form of Grimm",
+            "journal_entry": "The true form of the Troupe Master."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Banishment achievement"
+            ]
+        }
+    },
+    {
+        "id": "no_eyes",
+        "name": "No Eyes",
+        "type": "dream_boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Stone Sanctuary",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 150,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Ghostly attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "ghost_attack"
+            ]
+        },
+        "lore": {
+            "description": "Blind dream warrior",
+            "journal_entry": "A blind warrior who fights with spiritual energy."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "nosk",
+        "name": "Nosk",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Deepnest",
+            "room": "Hidden cavern"
+        },
+        "stats": {
+            "health": 240,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Charges and ceiling drops",
+            "movement_type": "ground",
+            "abilities": [
+                "charge",
+                "ceiling_drop"
+            ]
+        },
+        "lore": {
+            "description": "Shapeshifting predator",
+            "journal_entry": "A clever predator that lures its prey."
+        },
+        "drops": {
+            "geo": 350,
+            "items": [],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "oblobbles",
+        "name": "Oblobbles",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Colosseum of Fools",
+            "room": "Colosseum"
+        },
+        "stats": {
+            "health": 150,
+            "damage": {
+                "contact": 1,
+                "spit": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Dual spitting attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "spit",
+                "coordinate"
+            ]
+        },
+        "lore": {
+            "description": "Twin flying bosses",
+            "journal_entry": "Twin flying creatures that attack in coordination."
+        },
+        "drops": {
+            "geo": 200,
+            "items": [],
+            "other_rewards": [
+                "Colosseum completion"
+            ]
+        }
+    },
+    {
+        "id": "paintmaster_sheo",
+        "name": "Paintmaster Sheo",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Godhome",
+            "room": "Pantheon"
+        },
+        "stats": {
+            "health": 280,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Paint-based nail arts",
+            "movement_type": "ground",
+            "abilities": [
+                "paint_attacks",
+                "nail_arts"
+            ]
+        },
+        "lore": {
+            "description": "Nailmaster turned painter",
+            "journal_entry": "A Nailmaster who traded his nail for a brush."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Pantheon completion"
+            ]
+        }
+    },
+    {
+        "id": "pale_lurker",
+        "name": "Pale Lurker",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Colosseum of Fools",
+            "room": "Hidden area"
+        },
+        "stats": {
+            "health": 200,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Teleporting attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "teleport",
+                "lunge"
+            ]
+        },
+        "lore": {
+            "description": "Teleporting boss",
+            "journal_entry": "A mysterious being that teleports around the arena."
+        },
+        "drops": {
+            "geo": 150,
+            "items": [],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "pure_vessel",
+        "name": "Pure Vessel",
+        "type": "boss",
+        "difficulty": "10/10",
+        "location": {
+            "area": "Godhome",
+            "room": "Pantheon of Hallownest"
+        },
+        "stats": {
+            "health": 350,
+            "damage": {
+                "contact": 2,
+                "nail": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Perfect nail and void attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "nail_arts",
+                "void_attacks",
+                "focus"
+            ]
+        },
+        "lore": {
+            "description": "Hollow Knight in prime",
+            "journal_entry": "The Hollow Knight as it was meant to be."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Pantheon completion"
+            ]
+        }
+    },
+    {
+        "id": "radiance",
+        "name": "The Radiance",
+        "type": "final_boss",
+        "difficulty": "9/10",
+        "location": {
+            "area": "Dream Realm",
+            "room": "Black Egg Temple (Dream)"
+        },
+        "stats": {
+            "health": 130,
+            "damage": {
+                "contact": 2,
+                "light": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Light-based attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "light_beam",
+                "sword_barrage"
+            ]
+        },
+        "lore": {
+            "description": "Ancient god of light",
+            "journal_entry": "A god of dream and light, forgotten by the world."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Dream No More ending"
+            ]
+        }
+    },
+    {
+        "id": "sisters_of_battle",
+        "name": "Sisters of Battle",
+        "type": "boss",
+        "difficulty": "8/10",
+        "location": {
+            "area": "Godhome",
+            "room": "Pantheon"
+        },
+        "stats": {
+            "health": 315,
+            "damage": {
+                "contact": 2,
+                "scythe": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Enhanced mantis attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "scythe_throw",
+                "dive",
+                "synchronized_attacks"
+            ]
+        },
+        "lore": {
+            "description": "Mantis Lords at full power",
+            "journal_entry": "The Mantis Lords fighting as one."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Pantheon completion"
+            ]
+        }
+    },
+    {
+        "id": "soul_master",
+        "name": "Soul Master",
+        "type": "boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Soul Sanctum",
+            "room": "Top chamber"
+        },
+        "stats": {
+            "health": 180,
+            "damage": {
+                "contact": 1,
+                "soul": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Soul orbs and slams",
+            "movement_type": "flying",
+            "abilities": [
+                "soul_orb",
+                "slam"
+            ]
+        },
+        "lore": {
+            "description": "Mad soul master",
+            "journal_entry": "The master of the Soul Sanctum."
+        },
+        "drops": {
+            "geo": 200,
+            "items": [
+                "Desolate Dive"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "soul_tyrant",
+        "name": "Soul Tyrant",
+        "type": "dream_boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Soul Sanctum",
+            "room": "Top chamber (Dream)"
+        },
+        "stats": {
+            "health": 360,
+            "damage": {
+                "contact": 2,
+                "soul": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Enhanced soul attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "soul_orb",
+                "slam",
+                "fake_slam"
+            ]
+        },
+        "lore": {
+            "description": "Dream Soul Master",
+            "journal_entry": "The Soul Master's dream of ultimate power."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "traitor_lord",
+        "name": "Traitor Lord",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Queen's Gardens",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 280,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Fast charging attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "charge",
+                "shockwave"
+            ]
+        },
+        "lore": {
+            "description": "Mantis traitor",
+            "journal_entry": "A mantis who betrayed its tribe."
+        },
+        "drops": {
+            "geo": 400,
+            "items": [],
+            "other_rewards": [
+                "Access to White Lady"
+            ]
+        }
+    },
+    {
+        "id": "uumuu",
+        "name": "Uumuu",
+        "type": "boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Teacher's Archives",
+            "room": "Main chamber"
+        },
+        "stats": {
+            "health": 200,
+            "damage": {
+                "contact": 2,
+                "explosion": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Electric attacks and explosions",
+            "movement_type": "flying",
+            "abilities": [
+                "electric_field",
+                "explode"
+            ]
+        },
+        "lore": {
+            "description": "Jellyfish-like creature",
+            "journal_entry": "A strange jellyfish-like creature."
+        },
+        "drops": {
+            "geo": 150,
+            "items": [],
+            "other_rewards": [
+                "Access to Monomon"
+            ]
+        }
+    },
+    {
+        "id": "vengefly_king",
+        "name": "Vengefly King",
+        "type": "boss",
+        "difficulty": "3/10",
+        "location": {
+            "area": "Greenpath",
+            "room": "Overgrown Mound"
+        },
+        "stats": {
+            "health": 60,
+            "damage": {
+                "contact": 1,
+                "charge": 1
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Charges and summons",
+            "movement_type": "flying",
+            "abilities": [
+                "charge",
+                "summon_vengeflies"
+            ]
+        },
+        "lore": {
+            "description": "Alpha Vengefly",
+            "journal_entry": "Giant alpha of the Vengefly species."
+        },
+        "drops": {
+            "geo": 45,
+            "items": [],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "watcher_knight",
+        "name": "Watcher Knight",
+        "type": "boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Watcher's Spire",
+            "room": "Tower chamber"
+        },
+        "stats": {
+            "health": 220,
+            "damage": {
+                "contact": 1,
+                "roll": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Rolling attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "roll",
+                "bounce"
+            ]
+        },
+        "lore": {
+            "description": "Former knights",
+            "journal_entry": "Once loyal knights, now empty shells."
+        },
+        "drops": {
+            "geo": 300,
+            "items": [],
+            "other_rewards": [
+                "Access to Lurien"
+            ]
+        }
+    },
+    {
+        "id": "white_defender",
+        "name": "White Defender",
+        "type": "dream_boss",
+        "difficulty": "6/10",
+        "location": {
+            "area": "Royal Waterways",
+            "room": "Eastern chamber (Dream)"
+        },
+        "stats": {
+            "health": 330,
+            "damage": {
+                "contact": 2,
+                "dung": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Enhanced dung attacks",
+            "movement_type": "ground",
+            "abilities": [
+                "dung_ball",
+                "dive",
+                "tunnel_movement"
+            ]
+        },
+        "lore": {
+            "description": "Dream Dung Defender",
+            "journal_entry": "The Dung Defender as he was in his prime."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    },
+    {
+        "id": "winged_nosk",
+        "name": "Winged Nosk",
+        "type": "boss",
+        "difficulty": "7/10",
+        "location": {
+            "area": "Godhome",
+            "room": "Pantheon"
+        },
+        "stats": {
+            "health": 360,
+            "damage": {
+                "contact": 2
+            }
+        },
+        "behavior": {
+            "aggression": "very_high",
+            "attack_pattern": "Flying Nosk attacks",
+            "movement_type": "flying",
+            "abilities": [
+                "charge",
+                "dive",
+                "acid_spit"
+            ]
+        },
+        "lore": {
+            "description": "Winged Nosk variant",
+            "journal_entry": "A variant of Nosk that has taken to the air."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [],
+            "other_rewards": [
+                "Pantheon completion"
+            ]
+        }
+    },
+    {
+        "id": "xero",
+        "name": "Xero",
+        "type": "dream_boss",
+        "difficulty": "5/10",
+        "location": {
+            "area": "Resting Grounds",
+            "room": "Hidden chamber"
+        },
+        "stats": {
+            "health": 130,
+            "damage": {
+                "contact": 2,
+                "nail": 2
+            }
+        },
+        "behavior": {
+            "aggression": "high",
+            "attack_pattern": "Nail throws",
+            "movement_type": "flying",
+            "abilities": [
+                "nail_throw"
+            ]
+        },
+        "lore": {
+            "description": "Dream nail warrior",
+            "journal_entry": "A warrior who fights by throwing spectral nails."
+        },
+        "drops": {
+            "geo": 0,
+            "items": [
+                "Essence"
+            ],
+            "other_rewards": []
+        }
+    }
+]
